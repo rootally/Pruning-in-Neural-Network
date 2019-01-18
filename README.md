@@ -8,3 +8,5 @@ Weight Pruning and Unit Pruning in Tensorflow
 
 - Unit/Neuron pruning: Set entire columns to zero in the weight matrix to zero, in effect deleting the corresponding output neuron.
 Here to achieve sparsity of k% we rank the the columns of a weight matrix according to their L2-norm  and delete the smallest k%.
+
+## Try it on [Colab Notebook](https://colab.research.google.com/drive/1F1-06WLfr1OUo2QdYp_ySuXQvnSH5oPX)
